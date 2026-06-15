@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Developer Portfolio</h1>
+    <p>Web Developer | Angular Developer | Full Stack Learner</p>
+
+    <button id="themeBtn">Toggle Dark Mode</button>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+
+      <img
+        src="software-developer.png"
+        alt="Profile picture of Developer Portfolio"
+      />
+
+      <p>
+        Welcome to my portfolio! This website showcases my skills, projects,
+  and passion for creating responsive and user-friendly web applications.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <div class="card">
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Angular</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Backend</h3>
+        <ul>
+          <li>C#</li>
+          <li>.NET</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article class="card">
+        <h3>Portfolio Website</h3>
+        <p>
+          Responsive portfolio website built using HTML, CSS, and JavaScript.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Student Management System</h3>
+        <p>
+          Console application developed in C# to manage student records.
+        </p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+      <form id="contactForm">
+
+        <label for="name">Name</label>
+        <input id="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+
+      </form>
+
+      <p id="success"></p>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Developer Portfolio. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
